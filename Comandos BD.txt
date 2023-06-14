@@ -1,0 +1,11 @@
+Jogue esse código em seu mysql
+
+create database Registro_usuario
+
+CREATE TABLE login (
+                        IDUsuario INT AUTO_INCREMENT PRIMARY KEY,
+                        Usuario VARCHAR(100) NOT NULL UNIQUE,
+                        Senha VARCHAR(100),
+                        RA VARCHAR(15) NOT NULL UNIQUE,
+                        Nome VARCHAR(40) NOT NULL,
+                            )
